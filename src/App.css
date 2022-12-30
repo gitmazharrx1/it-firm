@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
+.footer-bg{
+  background-image: url('../src/Images/bg-footer1.jpg');
+  
+}
+.service-bg{
+  background-image: url('../src/Images/h2-bg-section-02.jpg');
+  
+}
+.social-bg{
+  background-image: url('../src/Images/h2-bg-slider1-overlay.png');
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
