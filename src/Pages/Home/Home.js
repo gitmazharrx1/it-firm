@@ -1,4 +1,5 @@
 import React from "react";
+import PageTitle from "../../Shared/Header/PageTitle/PageTitle";
 import About from "../About/About";
 import Blogs from "../Blogs/Blogs";
 import Portfolio from "../Portfolio/Portfolio";
@@ -9,6 +10,7 @@ import Slider from "./Silder/Slider";
 const Home = () => {
   return (
     <div>
+      <PageTitle title="Home"></PageTitle>
       <Slider></Slider>
       <Sector></Sector>
       <About></About>

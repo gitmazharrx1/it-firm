@@ -8,6 +8,7 @@ import {
 import { toast, Toaster } from "react-hot-toast";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../firebase.init";
+import PageTitle from "../../Shared/Header/PageTitle/PageTitle";
 import SocialLogin from "./SocialLogin/SocialLogin";
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -34,6 +35,7 @@ const Login = () => {
   }
   return (
     <div>
+      <PageTitle title="Login"></PageTitle>
       <h1 className="text-primary mt-5 p-4">Please Login Here!!</h1>
       <Form onSubmit={handleSubmit} className="w-50 mx-auto">
         <Form.Group className="mb-2" controlId="formBasicEmail">
